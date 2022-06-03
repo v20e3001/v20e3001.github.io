@@ -1,0 +1,8 @@
+#headerfixed{
+    width: 100px;
+    height: 112px;
+    clear: both;
+    position: fixed;
+    margin-top: 0;
+    z-index: 1;
+}
