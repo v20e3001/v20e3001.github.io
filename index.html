@@ -1,6 +1,6 @@
 <html lang="jp">
 <head>
-  <title>v20e3001 Test Page</title>
+  <title>v20e3001's Page</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
@@ -13,8 +13,8 @@
   }
   body{
       margin-top: 0px;
-      margin-right: 15px;
-      margin-left: 15px;
+      margin-right: 25px;
+      margin-left: 25px;
       margin-bottom: 0px;
 
       background-color: #fafafa;
@@ -35,7 +35,7 @@
 <!-- Navigation bar -->
 <header>
     <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">
-        <a class="navbar-brand" href="#">TOP</a>
+        <a class="navbar-brand" href="#">v20e3001's page</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -43,7 +43,10 @@
             <div class="collapse navbar-collapse" id="collapsibleNavbar">
               <ul class="navbar-nav">
                 <li class="nav-item">
-                  <a class="nav-link" href="#">プロフィール</a>
+                    <a class="nav-link" href="#">HOME</a>
+                  </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#Profile">プロフィール</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#Experience">経験</a>
@@ -55,7 +58,12 @@
               </ul>
             </div>
         </div>
+
+        
+
     </nav>
+
+    
 </header>
 
 <!-- Title -->
@@ -70,6 +78,11 @@
 
 <!-- Main -->
 
+<!-- プロフィール -->
+<div id="Profile" class="container">
+    <h1>プロフィール</h1>
+
+</div>
 
 <!-- 経験 -->
 <div id="Experience" class="container">
@@ -83,9 +96,6 @@
             </tr>
         </thead>
         <!-- Contents -->
-        <tcell>
-            
-        </tcell>
         <tr>
             <td>ゲームアプリ制作</td>
             <td>４年</td>
@@ -123,11 +133,13 @@
     <!-- プログラム言語 -->
     <h2>プログラム言語</h2>
     <table>
-        <tr>
-            <th colspan="1">ツール</th>
-            <th>利用年数</th>
-            <th>利用例</th>
-        </tr>
+        <thead>
+            <tr>
+                <th colspan="1">ツール</th>
+                <th>利用年数</th>
+                <th>利用例</th>
+            </tr>
+        </thead>
         <!-- Contents -->
         <tr>
             <td>C#</td>
@@ -193,11 +205,13 @@
     <!-- ツール -->
     <h2>ツール</h2>
     <table>
-        <tr>
-            <th colspan="2">ツール</th>
-            <th>利用年数</th>
-            <th>利用例</th>
-        </tr>
+        <thead>
+            <tr>
+                <th colspan="2">ツール</th>
+                <th>利用年数</th>
+                <th>利用例</th>
+            </tr>
+        </thead>
         <!-- Contents -->
         <tr>
             <td><img src="https://www.notion.so/image/https%3A%2F%2Fpbs.twimg.com%2Fprofile_images%2F1445405114618073091%2FcHLbsANs_400x400.png?table=block&id=bb1e4dfa-38c6-43ab-b12c-4efc5ca301f6&spaceId=9326617c-aff9-4101-8987-c3380c0300c7&width=250&userId=d270fa7c-dd28-4c64-9659-9627f748f768&cache=v2" width="50" height="50"></td>
@@ -240,6 +254,15 @@
                 <li>ハッカソンやインターンシップにおける、グループ制作でのデータ管理に利用</li>
             </td>
         </tr>
+        <tr>
+            <td><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAA7VBMVEX///+2xt8AAAAAebtmZmb29vb7+/v4+Pjs7Ozv7+/k5OTp6en09PTExMTY2NgrKyt6enrQ0NDe3t67u7slJSW8zOatra3Dw8MLCwuOjo6hoaFLS0vg4OBhYWHMzMwSEhI4ODhCQkIeHh4yMjKamppUVFRvb2+FhYU+Pj5ISEh9fX2qqqq2trafn5+KiopYWFiuvdVmb30AUHxQV2IADhYAMUwAbakAGyoARmxPVmFCSFExNTx8h5gAY5kAKD6HkqWZprsAOFeQnbGkssgAc7IAHi9weYk2OkEAW4sANVFqc4IAZZwAEh0Af8RcZXEg4AgvAAAUGklEQVR4nO1diXbaOrRNVDMZ8AAEDMYYT8xDmjRNm5E2bdLbIf//Oe8cyTZmhmC3772lve5azYStLZ1ZR7onJxwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcb4PYKtZazX89iuSQqwoVQuypK/7rkcSMXNmtj4uZE3FAfBitfz2mOJEeerJGNEeoG8Dt6uLiC/xj1f71sGKEQiL49Q7w8TshXulfjys2OIRoVxf3Fw9I8Ns7ij/wTSf3r0cWE2AFr38gqXcXvwm5YAzffftNtNG/HtqxSKu1cis9AoL3fxitH799KcWvYRHz/3qIxyHvgl8wXYt8CNbt3btPGrkKFvGKkP/b9lTsBLblIST47iOo3/18Ed3MXxhIXi0Wiy1VQoj5VHzPBYJ2tWGSuVzSRSTkiy+yv65JPxvb+9aOYVQX9J4jVwAyheO0e5ZudIetwrEPL3SBmnQiggP8/SfCEAzMdzCnf77Bf+AVE4tsMuWBRbbCFoZH2fIhYcN3CfkUZfjnCtTyD+rgp3cXhKgxEYqikJfqPZ+GWbl9ubl8fX29/Hx5efn5BvDycivbGvt1pS7l0m97i+T4ZqROyMdw/b7Byl0gN4xpyAUoYiNOaoh0qahU2Brd3rz+vPv6dHq2hNOn2d3z+8sb9mf9hvqWpUw3CKnj5OQFQkIr8+nhy/27j6CI978Jjd4+kHq8/LI1t0/Hffv6fDc7RzprQXk+Pr9/oX+slA/3WvkekWlMJunkOlhBDGmu798R8t8n+uDrL7+JEie/XLVj44Nvnh+R3XpyUZqns8dXGT6gCY1D0zmJkC41Vmov8BV/GK0rYPhAhZR8eLgmnfj4pVwD+dk/ZyCYu9iFOJ893iBHr36YWR8TwiKylhN6+Gum3N8+kO9XjOH336QbG8GRhY7p5evT+d7sQpLIkbTdA96WnhKntcTw1wfGEAK3kOEHcshTt6FpUPGcHcrOx9Mlflyu7s8QElwm2HMp/eEzxLjN10NQzP2fuQ05Fx3D59n+wrmMs6dLNK292p5BVt63pNTSfF9iCJbmB7WlqI6x1GskjA9v7t7Oj3KcXaIaK9JerxyFjg5jGsbwfs7wC0Yz5MOn/4gZR3IxaoN3+Pl0HEHk+HgJqtyr7uMeBxCRsq8y3TDn/R0y/PTn15ff15+As3B8DpwZ4wJ+PZYepXh+hw5S2SPj6ZN20f9yHOS8gbe4osnUxx/33y7iUMMCBE3k9SkOgoin99Sq7vQchHiBgpVl8vAniLlBNH98J9csjPt2TSr7Cf0WZLF2d3ewg9iM89kteMfpjngZTGkniGezRiimH//78HAPBucqzKPqx6aHWaxxPcbHjwKXUdsuXS0S8eTdeUKIuPKl9s89CXzm25GDFTS/Hm1ilnD2hBHA1njSJdrck4s98uE+JAjB9jXl+wseMj6SYAp0sPJWJ7+N4vl7cBzdLdUAgVQiVTQYxkOQQN1/B1vzEQBWRtv2iL0Afl6OW0R93IH/n2zUIVEmViR3T3nAihUy7h9YxP2ARsc61syUYQXvkiF4evpoEntjsXNCyCD6vYTxy8X9rx+fYAXldlBFcCbHUVRlYj4nRRAoEjLdUGMp9Ym5GIzVHBqFYnIhtKRRp9+zaCKgH2Np8lNCLmN0E8s4e4FFbDbq9dFKVALasZz1SUFhkbrSnAholoF2+wiKYKPlBAlCDAe5pqyBsW67iwajBHO7Em2mm67Xmw6z0apPHjyl+eZKFFa6kiQIvp+VsrBm1V4YJiyhsN8gC+iui7v/bh1UC0KZuB3hIl5xI7c+qipoOSImA1Le1SXcgFxXW/js/sjB5Lwmyu/sDrSgQcVTEjTiha/Ogsa5e1cgkWLvLWXvKiEvsUXbawnO7DA/oilgwCkFnmJ6QM6HUesbCor5NjETcvUBPkNQE7IahAxFEJ72smZtLdyXTKIfngWjjCZqZs4ebSKHOxstmciMigvRS2W0KKOFqr41TJ+uTslOQAhxm0A4GsH556BYCCjJhBjjYV3xHLAbdnlpNJAfmtviT504BzPsEfKcqB09g5hNDt5WI1GsqUqADOubB1vWyPTQSsaIkJuEXeHr3I1B9EsqFds0bbmtD9Y1V4g65FqbonRIrbTh/NusJJXyu7LijE7MhF3hV5u0/WHACppKuTxsNKq1TYXBIuZa69cppSxEeFJHtttCfaRu3b0cmuQmUX6np8+E+POuVohW3ylk4LxIZ114lnHB6cxNbS5ou+kNGpujuYJASOxp/SKeIOhm4ojebLDHbnEVVrHvrgQvmbEcsVhgs8AUTwSHkuwrjQ1eBkzXbbIET2dAi61bwyTtvbbDix4OelCN6mlu1KmEwkCBG+PjTLbUoBu4Zk+orguO6okHpFiKKodzvmdUmceqJrHbuqFMGqNJx/B0C/cJxgtmpQxrTSdBrNt0JbXV9j4MuZPld3quBfWH6t5ZBCDbNcky5GXnCXmJ5hssdWCxXWhFzUWnAV76M2GGX4NdF9zAPqiVojjw2Kht2Wlbeme1NzEHcXul7BNKl7tT+udOXRXD8itYo0RDbnD3n4N2NNUkxqFNKQWgYEyqLXHDB7HLyJ7X1POjyZQuvdcossmUHPKSrLc/PYMQhQnp6PBth5wL7mXrrFCFjbqWUtnV6boLbjlLi80/E2Y4CwppKFEHZa8ZtdrRds5KpgouxIo2oaRLrTq2E5CKMSmPwRkmS/DslZjs9WKFeDvVMJ3Li02pVRs16t1OHwROa+xMj1UPA6WFH6XEIqtlyTLRks0qTs9ugwJZEyzO1qJ1vqGAU+hbVq8tV3xDOm3tkf/T7RZ9OcZN1zzayHR7/FboVpzbZMoGOVqIR1YgGfayc3C60p71jaqz7CvTqhA85ubuPMky6aPmh8rpDjE3J3Z5hXmFttXXvamgdMe1gxyLNEWDM1fzFI0YNNOftdufb2gq2ZPhK2gSfWfG3LLxIEHcZXvd4tt7K1MTWEanGthdIGgbE3c4dAdTmWnk6+PsgMag/XET7NtmtvQwSzDV+vDIBs4ydsgM2MtSkG8M/bc1a8Ou37v28zF+nZzdEst/UdhQsoISDMA4ev8aglMwTzrV9YUtV4gbpNrYo9H55xhaMBZw9mwG20r1jZ2TWDLdtGtzEDJFkFR7INJEe6nmmMlLLhXXl2P6hNbgNWw+lzdtr6VxYzamHnzMdokzwsYAYUWn0ymVRTs35/FxnL0Q4j8fAo/1G0dVzU+BYgEmVGSa6m+QGFGh1jW2bUSs5fvBhri2rnbCSlNxHhTJ0o5f3M9ef0yqqaDv/BxToINFNn95BmRt42QGazIx9/2W0TfCUnkbjFerY+J2dyyi+tUmPd9+WsRc00mBPYLHNyAso+myXHi6gWJmiHPwGoPFOX8f1lWy8tKuIYUEkYy9u/Z2MNItFndv3BVvYtXjdt+uhbCjfQUzm7R9LzDWyHT5NZmRjk2oca8gRbZMGxx6ymDiVourNeNU0QLv+LrbOdLe7uf3iOevyzERauHQF1KYU8dtLYTGtHTmqG88vbAT+bqfnph2pTetr/jbAja43W4tpMKyzX7e3Fb8wxaaffv6dWElIfft+ZqAlXqiyb3pYNhqZrOiOuxYaLaFo4/abKEYJhcU7RXTWsSBX24u4pzTlvUlmK9zK4wb90F1s776p2TNzmGcaAJBZ1gr1ob1jo67XERYXsesYFKOq1nH+fnTHTtaYTp9ozse1Wq1smv0TEaSfeIJZFDxjQjWLPtdw7O0gJxW6QnLpcFYgSWqfmhLVRcPhJPqUuiUGeosgZzBmANzcv40e3x/y/KRqeJGU3DI0XVK8uVuNnuU59Y6MwGzhmRzLuq/pQy67htOnRwCLArpUeOdGmHqYSwbnVJjSrm8vN49Mjy/3jAFbnfc8mq0XKp26axouFhhV2nLDFtfW95mNxUnwA15S95JbIDmy+6yb2qOBnIgWGYoY/3JqLUhWU1L5QkN/bR6EGziFlEYJEowlf0k9Y+ivi4KTkugmlpnZeA5GHI/Yh4spao2t5rAglR26yM19HMScJovd7OTsIkBNLT1iUwOG6P0NQ44lc2LterYbVSLYj67j4HPRMQ9IyzWPLEkYyd6nhcb/zacrWmBRLbjfl9uudJHNzaTOCnpQ5yuj/IppP6WX74R1kqqhg01dmLmJlPf2upQdIgW7/Q2QQuXn5jz5uFO7CjKwZbzergasWK9fmKNVJSoo9WToYiecOtR2hL4fr0a35nwqrZ8hiDb8JhVniZyq04L/PrW4bvo9GyhPoqHJJZ6FxuAawa20dZrWEFM4CKPlBHsqW/ACJaQxuQVXdl+HUxKao2Gbt0FNMrzPddFYKHQXtDCCQYQk1IKDxrGe6iXIb8mwl4YkYBCzIpuxGxvSL+zVcVzsK9JC6IdyMGc6aS47EuxULiwdY8zHNRPsDEofs/f3bHhCFrTo0Mrd2SWKdRSi6uTlpQweENqiPkP7K4U8fX0mBiJ/ABldq4lWEaMh1YEJrG2+QKc88AspBt+jjyRxPkgxS5LKyxP6Azq7pDCnSgdw2vTcJToxWDhS+jZzYhStED3KpGUY7DapH8sUiD624Iu0SBaKGlVWBI2aMuttZiitWARTG/glqWVx+Ra1bqi00yzVcrmS+oQMzIn0uGDBI2qjpPAfqC2t3uuN2C1nL8ICGn6wXoVTGL2PcvPLGyjDos1xq2P4WY/lpaqCj350el4dHKsSPwrgZPoiCcqqGLPX9hu7MbGDfbUN0CyiBcwHEGIKgjCVO8tdO4IOyY9V/RCpTSjFzvlGUHW+ey3/og26cfrFAekstbQFMQmPbvR1IkVSGmXaH0BYUy9nh2Meg8Xhh5Ck/tKTQ372RBeeFcXbrvLzBwY0WN5caCz2jd1onb1toNXzbR7U6E9N30KCKkQwDAM2lem7VP7S2FsDzOWizIsg0hM/V6MFNZQqEWtxR3oK0ReTAxTVZssIXBRLtEsIYqpvW8/TE6mj8nZRAiqMRmH2GBoNLaKadBFgU5W3LFbd37ogUL1k3cHVgnGX3FA5fwtW5ze3gLDfuRAwRZkcnmxQcU5154Pf4J9BKihjGK+7Yuns9rKfhSGi7kvbmy1FdAKIUPHINSwxOKLaZ5ZmrmgVnYvYaqk1lyDOUb1pOCFKVJeJ6Z0ImIJk61qzc8thLjugfAhgf+ef1fDukzxJK1TC5uvkJ6aEkJ/ksZzSlEhXbetuoDmqK7PwxuFXh7gxw8QPWDwhqdlfPOqsP6h7mJP7PGIXsynQrLbxRlVmZVzkf5YI7avO/DyfoSht2O2JZdVHmHlBy5u/VAZYWqfVvz1LwXSiT1gjpQAQ2d+RjEHy9VhkUmHDj6DReKUHlo3WHDZmDPcHifn/MuIjJpUyufSNRnFNLxWR9KJxv4OZrPHHAXoaiONr46XYX2+EA2NyL7KNVmri4K/dMNT77lpZBFRC+XNIa1K6/UOhHTs8SignZOm5atduRIGoEpwqluySTt/0t51VP9QiGHbDkxraDgKU1qcAduiZOGdQSRVxBCbqqJBN+P6Gw0NzSEGBZwefwbHQPYk4/rrXo0UFkw/GMe+rFZ6TRHnOKAzZrLWiMb1EKFBugsSCsukhjcgZMbUblQcumdsbrw+FM2TyaI5zEfo+LFkSfevdJSTYUTCy0EcAL8cKPGX9sp+CyTWFOeuVqI3TuCNYjWMpIhf+c4MvSAmtbrWJoZ4iCKIpTNjm7k8/GGeXhRYXGKY6/tZf8kjoK1y3EmwaLFKJUhgZ571SRVqY1XawQiSTIIChjisG/2K3BmrJ/oGKc37rapstxePQOj4FVXqk5FNnBRlOI+lqtTEgIGd4OfiDUtP2M1vClOCyOQ1e2QKy9a0KdHuwh0iolrDlsGMsN7S5LrYLY8XajBNw1PvQ8awy0p78M/IjAgjTKeHYop7NNvT1behpOMFGmKb9CL1GtEjfTBAYp+ezwSZba8Ei+n6Wm+RHpro1rFrxA+/yjbdK/Tzd5VuIUDi3As/grkHvLuK7kVJ4trcIZiPobjYkQwMrTw98O7Au8W1B6bLa6t02DeJP8YJMNnCG8QeUoa0BAVGzJzgBQLz14GYllPoX4mbzDY+iL/WnqsaogmLl6VbJnh9gyivYyitu6i4YPlKdZJRgqpaja5eWINpoJ0CdzkPF2sm0WnoOkyqD2NCDaQbOZkIwRQezASGdpManDUMs+tKrW5od2mTKJs1G8tdSuhWR6xBCWLgkZjLFQqFIj30YRoJ3l09ZJd1KlJQx/VtKdgFYKjC/Bprdtlh6pc1UYzeVAFBkkG/UDBH68zNZKkTXk9C5L7fzyDEG6wtQxqwd+oNdpBTYmqZBXuZV7UNF2zQ6udogboQ7fvNWP4ZZLx8DQ3aXA9arjLtR3Jtqxv7NaTLSLeCS1en7rCIcon+Ku8BZ2yzXR8q5rGLqFOemwz4mB4xumM/N8sCbwxuolKYaqrlarXRFQxDcasJbo/OkZFqwRnTtgIq1hBTJ3mHYKVbcze0mtHbBuVOeJtuZ7GOlAmkG4jDEtprnlAQRTHZu44XkGu2wvulQUG8KTtjQhobD0dnUPiIrSvU5EiQiy1YVxBTKpkm7Tb5Kwu1E+mMuHKQcevIMmV67NaUjUZ+slxfbvgpBFXyZC3JgSgbbQeAJUVrd7Ym+Zs2iA5af0QqlcqkwbROCqkCFYz97yv5i8juPLvvozDqeM7C0mu23NMFzKKYxayM93zU/17kauOusOmGb9NItCnv7yGrDl2hXbHtih3dQjQao2S78v4uRLVFUSzWfLT+v/0fbzg4ODg4ODg4ODg4ODg4ODg4ODg4ODg4ODg4ODg4ODg4ODg4ODg4ODg4ODg4ODgo/gc1eNDjaSK/0gAAAABJRU5ErkJggg==" width="50" height="50"></td>
+            <td>ToroiseSVN</td>
+            <td>６か月</td>
+            <td>
+                <li>所属サークルで制作したアプリケーションやデジタルイラスト等の制作物の管理に利用</li>
+                <li>ハッカソンやインターンシップにおける、グループ制作でのデータ管理に利用</li>
+            </td>
+        </tr>
         
     </table>
 </div>
@@ -248,13 +271,10 @@
     <hr>
 </body>
 
-<!-- ツール -->
-<div class="alert alert-secondary" role="alert">
-    
-    
-</div>
 
 <!-- Footer -->
-<div class="jumbotron text-center" style="margin-bottom:0">
-    <p>2022 v20e3001</p>
-</div>
+<footer>
+    <nav class="navbar navbar-expand-x1 bg-dark navbar-dark bottom justify-content-center">
+        <p>2022 v20e3001</p>
+    </nav>
+</footer>
